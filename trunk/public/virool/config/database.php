@@ -49,8 +49,8 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'luclv_national';
-$db['default']['password'] = 'sbzb7zj3w3!@#';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
 $db['default']['database'] = 'luclv_k2i2';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
