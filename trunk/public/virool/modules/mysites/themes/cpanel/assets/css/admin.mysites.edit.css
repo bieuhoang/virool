@@ -1,0 +1,54 @@
+textarea.textarea {
+	width: 440px;
+}
+.btn-success{
+	padding: 8px 20px !important;
+	margin: 5px 0px;
+	float: none;
+}
+label.desc{
+	font-size: 10pt;
+	font-weight: bold;
+}
+.divCls-left, .divCls-right{
+	float: left;
+	width: 50%;
+}
+.divCls-all{
+	clear: both;
+	overflow: hidden;
+}
+form > .control-group:first-child{
+	border-bottom: 1px solid #EEEEEE;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    padding: 18px 16px;
+}
+.lable-required{
+	color: red;
+	width: 15px;
+	display: inline;
+}
+.lable-bang{
+	float: left;
+	margin-right: 10px;
+}
+#inputCurrency, #inputCurrencyConversionRate{
+	float: left;
+	width: 100px;
+	margin-right: 10px;
+}
+.controls{
+	display: table;
+}
+.selec-chosen{
+	width: 900px;
+}
+.clear{
+	clear: both;
+	border-top: 1px solid #EEEEEE;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+}
+#inputDescription{
+	height: 125px;
+    width: 400px;
+}

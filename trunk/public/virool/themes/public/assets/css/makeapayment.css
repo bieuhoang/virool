@@ -1,0 +1,214 @@
+.divCls-text-menu-make-pupop{
+	overflow: hidden;
+	height: 38px;
+}
+.divCls-text-menu-make-pupop ul li.active a{
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-color: #DDDDDD #DDDDDD transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #555555;
+    cursor: default;
+    background: #fff;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none !important; 
+}
+.divCls-text-menu-make-pupop ul li a{
+	text-decoration: none;
+	line-height: 40px;
+	padding: 10px 20px;
+}
+.divCls-text-menu-make-pupop ul li{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	border: none;
+}
+.modal-header{
+	background: linear-gradient(#FFFFFF, #E9EDF0) repeat scroll 0 0 #FFFFFF;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E9EDF0));
+    background: -webkit-linear-gradient(#FFFFFF, #E9EDF0);
+    background: -moz-linear-gradient(top, #FFFFFF, #E9EDF0);
+    background: -ms-linear-gradient(#FFFFFF, #E9EDF0);
+    background: -o-linear-gradient(#FFFFFF, #E9EDF0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#E9EDF0');
+    border-radius: 6px 6px 0 0;
+    padding-bottom: 0;
+    border-bottom: none !important;
+}
+#divId-make-pupop{
+    background: linear-gradient(to bottom, #FFFFFF 0%, #E5E5E5 100%) repeat scroll 0 0 transparent;
+    width: 600px;
+}
+#divId-CreditCard{
+    margin: 0px;        padding: 0px;
+}
+.Credit-Card-Holder-Name{
+    padding: 5px 10px;
+}
+.divCls-label{
+    color: #516B83;
+    margin: 0px;        padding: 0px 0px 5px;
+}
+input[type="text"]{
+    background-color: #F4F4F4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #B0BACA #B4BECD #D3D9E2;
+    border-image: none;
+    border-left: 1px solid #B4BECD;
+    border-right: 1px solid #B4BECD;
+    border-style: solid;
+    border-width: 1px;
+    width: 97%;
+}
+select{
+    background-color: #F4F4F4;
+    border: 1px solid #E1E1E1;
+    color: #1BA392;
+}
+.divCls-credit-card-number{
+    float: left;
+    width: 230px;
+}
+.divCls-CVV-Code{
+    float: left;
+    width: 108px;
+}
+.divCls-Expiration-Date{
+    float: left;
+    width: 200px;
+}
+.divCls-text{
+    clear: both;
+}
+.divCls-img-card{
+    width: 30px;        height: 28px;
+    background: url(../img/credit_cards.png) no-repeat center center;
+    display: block;
+    float: left;
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 0 1px 0 #FFFFFF;
+    border-radius: 5px 0px 0px 5px;
+}
+#card_number{
+    width: 160px;
+    border-radius: 0px 5px 5px 0px;
+    border-left:none;
+}
+#card_cvv_code{
+    width: 80px;
+}
+#selId-expiration-moth{
+    width: 60px;
+    margin-right: 10px;
+}
+#selId-expiration-year{
+    width: 100px;
+}
+#txtId-Other-amount{
+    width: 50px;
+    float: left;
+    border-radius: 0px;
+    border-left: none;
+    border-right: none;
+}
+.divCls-text{
+    color: #999997;
+    padding-top: 5px;
+}
+.divCls-text-specify{
+    color:#333333;
+    font-size: 21px;
+    padding: 10px 0px;
+}
+.divCls-rdo-Specify{
+    color: #516B83;
+    font-size: 14px;
+}
+.divCls-group{
+    float: left;
+    line-height: 30px;
+}
+input[type="radio"]{
+    margin: 0px 5px 0px 0px !important;    padding:0px;
+}
+.span-cls-number-float{
+    float: left;
+    margin: 0px 10px 0px 0px;
+    border:1px solid #CCCCCC;
+    border-radius: 0px 5px 5px 0px;
+    padding: 0px 5px;
+    line-height: 28px;
+}
+.span-cls-dola{
+    float: left;
+    margin: 0px 0px 0px 10px;
+    border:1px solid #CCCCCC;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0px 5px;
+    line-height: 28px;
+}
+.divCls-title-text{
+    clear: both;
+    color: #999997;
+    padding-top: 5px;
+}
+.divCls-Automatic-Billing-lable{
+    color: #333333;
+    font-size: 21px;
+    padding: 10px 0;
+}
+.divCls-Automatic-Billing input{
+    float: left;
+    margin-right: 10px !important;
+}
+.divCls-Automatic-Billing label{
+    margin: 0px;
+    padding: 0px;
+    color: #516B83;
+    text-transform: none;
+    float: left;
+}
+.modal-footer{
+    background: linear-gradient(#E9EDF0, #FFFFFF) repeat scroll 0 0 #FFFFFF;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E9EDF0), to(#FFFFFF));
+    background: -webkit-linear-gradient(#E9EDF0, #FFFFFF);
+    background: -moz-linear-gradient(top, #E9EDF0, #FFFFFF);
+    background: -ms-linear-gradient(#E9EDF0, #FFFFFF);
+    background: -o-linear-gradient(#E9EDF0, #FFFFFF);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E9EDF0', endColorstr='#FFFFFF');
+    border-radius: 0 0 6px 6px;
+    padding-bottom: 20px;
+    border-top: 1px solid #DDDDDD;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    margin-bottom: 0;
+    text-align: left;
+}
+.modal-footer label{
+    margin-left: 10px;
+}
+.divCls-hidden{
+    display: none;
+}
+.divCls-Paypal-title{
+    color:#333333;
+    font-size: 21px;
+    padding: 10px 0px;
+}
+.a-cls-menu:focus{
+    outline: none;
+}

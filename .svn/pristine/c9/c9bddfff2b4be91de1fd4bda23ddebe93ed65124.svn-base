@@ -1,0 +1,28 @@
+span.led-icon { width: 16px; height: 16px; display: blokc; float: left; margin: 5px; }
+span.nmr { margin: 0; }
+
+span.led-icon.led-icon-add { background: url(../img/icons/led-icons/add.png) no-repeat }
+span.led-icon.led-icon-accept, span.led-icon.led-icon-approved { background: url(../img/icons/led-icons/accept.png) no-repeat }
+span.led-icon.led-icon-alarm { background: url(../img/icons/led-icons/alarm.png) no-repeat }
+span.led-icon.led-icon-anchor { background: url(../img/icons/led-icons/anchor.png) no-repeat }
+span.led-icon.led-icon-application { background: url(../img/icons/led-icons/application.png) no-repeat }
+span.led-icon.led-icon-application-add { background: url(../img/icons/led-icons/application_add.png) no-repeat }
+span.led-icon.led-icon-application-cascade { background: url(../img/icons/led-icons/application_cascade.png) no-repeat }
+span.led-icon.led-icon-application-delete { background: url(../img/icons/led-icons/application_delete.png) no-repeat }
+span.led-icon.led-icon-application-double { background: url(../img/icons/led-icons/application_double.png) no-repeat }
+span.led-icon.led-icon-application-edit { background: url(../img/icons/led-icons/application_edit.png) no-repeat }
+span.led-icon.led-icon-application-error { background: url(../img/icons/led-icons/application_error.png) no-repeat }
+span.led-icon.led-icon-application-form { background: url(../img/icons/led-icons/application_form.png) no-repeat }
+span.led-icon.led-icon-application-get { background: url(../img/icons/led-icons/application_get.png) no-repeat }
+span.led-icon.led-icon-application-go { background: url(../img/icons/led-icons/application_go.png) no-repeat }
+span.led-icon.led-icon-application-home { background: url(../img/icons/led-icons/application_home.png) no-repeat }
+span.led-icon.led-icon-arrow-refresh { background: url(../img/icons/led-icons/arrow_refresh.png) no-repeat }
+span.led-icon.led-icon-cross { background: url(../img/icons/led-icons/cross.png) no-repeat }
+span.led-icon.led-icon-delete { background: url(../img/icons/led-icons/delete.png) no-repeat }
+span.led-icon.led-icon-pencil { background: url(../img/icons/led-icons/pencil.png) no-repeat }
+span.led-icon.led-icon-vcard { background: url(../img/icons/led-icons/vcard.png) no-repeat }
+span.led-icon.led-icon-find { background: url(../img/icons/led-icons/find.png) no-repeat }
+span.led-icon.led-icon-world { background: url(../img/icons/led-icons/world.png) no-repeat }
+span.led-icon.led-icon-group { background: url(../img/icons/led-icons/group.png) no-repeat }
+span.led-icon.led-icon-bin-closed, span.led-icon.led-icon-trash { background: url(../img/icons/led-icons/bin_closed.png) no-repeat }
+span.led-icon.led-icon-cancel, span.led-icon.led-icon-unapproved { background: url(../img/icons/led-icons/cancel.png) no-repeat }

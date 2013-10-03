@@ -1,0 +1,67 @@
+#games-hero-unit{
+	background: url(../images/hero-games.jpg) no-repeat center center !important;
+}
+.hero-inner{
+	background: url(../images/hero-headline.jpg)  no-repeat center center !important;
+}
+.hero-inner h1{
+	font-family: "SteelfishRg-regular";
+	font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 80px !important;
+}
+#advertiser-targeting-tools {
+    background: url(../images/musician-hero-tools.jpg) center center #010F27;
+    height: 400px;
+    padding-top: 60px;
+}
+.games-carousel{
+	position: relative;
+}
+.games-carousel a.left{
+	left: -10px;
+    position: absolute;
+    top: 70px;
+}
+.games-carousel a.right{
+	right: -30px;
+    position: absolute;
+    top: 70px;
+}
+#musicians-page #musicians-find-success .musician-brand{
+	font-size: 30px;
+}
+/* games-thumb */
+.game-thumb-1{
+	background: url(../images/game-thumb-1.png) no-repeat center top;
+}
+.game-thumb-2{
+	background: url(../images/game-thumb-2.png) no-repeat center top;
+}
+.game-thumb-3{
+	background: url(../images/game-thumb-3.png) no-repeat center top;
+}
+.game-thumb-4{
+	background: url(../images/game-thumb-4.png) no-repeat center top;
+}
+.game-thumb-5{
+	background: url(../images/game-thumb-5.png) no-repeat center top;
+}
+
+
+.game-1{
+	background: url(../images/game-1.jpg) no-repeat center top;
+}
+.game-2{
+	background: url(../images/game-2.jpg) no-repeat center top;
+}
+.game-3{
+	background: url(../images/game-3.jpg) no-repeat center top;
+}
+.game-4{
+	background: url(../images/game-4.jpg) no-repeat center top;
+}
+.game-5{
+	background: url(../images/game-5.jpg) no-repeat center top;
+}

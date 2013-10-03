@@ -1,0 +1,16 @@
+.divCls-Group{
+	clear: both;
+	padding: 5px 0px;
+	overflow: hidden;
+}
+.divCls-Group .divCls-Img{
+	float: left;
+	border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 5px #333333;
+    width: 60px;
+}
+.divCls-Title{
+	float: left;
+    width: 500px;
+    margin-left: 5px;
+}

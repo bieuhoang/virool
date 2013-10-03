@@ -1,0 +1,15 @@
+#sites-container{
+	width: 90%;
+	margin: 0px auto;
+	padding: 10px;
+	min-height: 520px;
+}
+.add-mysites{
+	text-transform: none !important;
+}
+.label-info{
+	margin: 0px 4px;
+}
+.site-url a{
+	text-decoration: none;
+}

@@ -1,0 +1,30 @@
+#publisher-hero-unit{
+    background: url(../images/hero-publisher.jpg) no-repeat !important;
+}
+.site-hero .hero-inner{
+    background: url(../images/hero-headline.jpg) no-repeat !important;
+}
+.bx-default-pager{
+    background-color: #F13490;
+    bottom: -43px !important;
+}
+.bx-wrapper .bx-viewport{
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+	left: 0px !important;
+}
+#captcha-field .add-on {
+    font-family: Comic Sans MS;
+    height: 37px;
+    line-height: 35px;
+    padding: 0 10px;
+    color: #000000;
+    background: url(../images/capchar.jpg) no-repeat center center;
+}
+.publisher-account-form{
+	display: none;
+}
+#page input.xlarge-field{
+	font-size: 20px;
+}

@@ -1,0 +1,57 @@
+#edit-blog-form{
+	width: 90%;
+	margin: 0px auto;
+	padding: 10px;
+}
+.form-horizontal .controls{
+	margin: 0px !important;
+}
+.span9 {
+    margin: 0 auto;
+    width: 90%;
+    float: none !important;
+}
+.radio input[type="radio"], .checkbox input[type="checkbox"]{
+	margin: 5px;
+}
+.placement-screenshots{
+	padding: 5px 10px 5px 110px;
+}
+input[type="file"]{
+	height: 28px !important;
+    margin-top: -1px !important;
+
+}
+.icon-plus-sign{
+	margin-top: 4px !important;
+}
+.add-link{
+	padding: 10px;
+    clear: both;
+}
+#list-all-img{
+	padding: 10px 5px;
+}
+.element-img {
+    background: none repeat scroll 0 0 #EBECED;
+    border-radius: 4px 4px 4px 4px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    width: 110px;
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+.img-size-100-80 {
+    height: 90px;
+    padding: 5px;
+    width: 100px;
+}
+.dele-img {
+    position: absolute;
+    right: 0;
+    top: -2px;
+    width: 16px;	height: 16px;
+    background: url(../img/deleteFile.png) no-repeat center center;
+}

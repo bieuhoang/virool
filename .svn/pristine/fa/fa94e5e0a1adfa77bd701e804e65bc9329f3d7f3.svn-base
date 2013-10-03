@@ -1,0 +1,45 @@
+#musician-hero-unit{
+	background: url(../images/hero-musician.jpg) no-repeat center center !important;
+}
+.hero-inner{
+	background: url(../images/hero-headline.jpg)  no-repeat center center !important;
+}
+.hero-inner h1{
+	font-family: "SteelfishRg-regular";
+	font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 100px !important;
+}
+#advertiser-targeting-tools {
+    background: url(../images/musician-hero-tools.jpg) center center #010F27;
+    height: 400px;
+    padding-top: 60px;
+}
+
+#musicians-page #musicians-find-success .band1{
+    background: url(../images/musician-1.png) center center ;
+}
+#musicians-page #musicians-find-success .band2{
+    background: url(../images/musician-2.png) center center;
+}
+#musicians-page #musicians-find-success .band3{
+    background: url(../images/musician-3.png) center center;
+}
+#musicians-page #musicians-find-success .band4{
+    background: url(../images/musician-4.png) center center;
+}
+
+#musicians-page #musician-examples .artist-carousel .artist-item.artist-7{
+    background: url(../images/page_1.jpg) center center;
+}
+
+#musicians-page #musician-examples .artist-carousel .artist-item.artist-4{
+    background: url(../images/page_2.jpg) center center;
+}
+#musicians-page #musician-examples .artist-carousel .artist-item.artist-6{
+    background: url(../images/page_3.jpg) center center;
+}
+#musicians-page #musician-examples .artist-carousel .artist-item.artist-5{
+    background: url(../images/page_4.jpg) center center;
+}

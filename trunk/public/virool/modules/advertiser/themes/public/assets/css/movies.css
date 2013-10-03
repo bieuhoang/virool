@@ -1,0 +1,114 @@
+#movies-hero-unit{
+	background: url(../images/hero-movies.jpg) no-repeat center center !important;
+}
+.hero-inner{
+	background: url(../images/hero-headline.jpg)  no-repeat center center !important;
+}
+.hero-inner h1{
+	font-family: "SteelfishRg-regular";
+	font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 80px !important;
+}
+#advertiser-targeting-tools {
+    background: url(../images/musician-hero-tools.jpg) center center #010F27;
+    height: 400px;
+    padding-top: 60px;
+}
+.movies-carousel{
+	position: relative;
+}
+.movies-carousel a.left{
+	left: -10px;
+    position: absolute;
+    top: 70px;
+}
+.movies-carousel a.right{
+	right: -30px;
+    position: absolute;
+    top: 70px;
+}
+#musicians-page #musicians-find-success .musician-movie{
+	font-size: 30px;
+}
+/* movie-thumb */
+.movie-thumb-1{
+	background: url(../images/movie-thumb-1.png) no-repeat center top;
+}
+.movie-thumb-2{
+	background: url(../images/movie-thumb-2.png) no-repeat center top;
+}
+.movie-thumb-3{
+	background: url(../images/movie-thumb-3.png) no-repeat center top;
+}
+.movie-thumb-4{
+	background: url(../images/movie-thumb-4.png) no-repeat center top;
+}
+.movie-thumb-5{
+	background: url(../images/movie-thumb-5.png) no-repeat center top;
+}
+.movie-thumb-6{
+	background: url(../images/movie-thumb-6.png) no-repeat center top;
+}
+.movie-thumb-7{
+	background: url(../images/movie-thumb-7.png) no-repeat center top;
+}
+.movie-thumb-8{
+	background: url(../images/movie-thumb-8.png) no-repeat center top;
+}
+.movie-thumb-9{
+	background: url(../images/movie-thumb-9.png) no-repeat center top;
+}
+.movie-thumb-10{
+	background: url(../images/movie-thumb-10.png) no-repeat center top;
+}
+.movie-thumb-11{
+	background: url(../images/movie-thumb-11.png) no-repeat center top;
+}
+.movie-thumb-12{
+	background: url(../images/movie-thumb-12.png) no-repeat center top;
+}
+.movie-thumb-13{
+	background: url(../images/movie-thumb-13.png) no-repeat center top;
+}
+
+.movie-1{
+	background: url(../images/movie-1.jpg) no-repeat center top;
+}
+.movie-2{
+	background: url(../images/movie-2.jpg) no-repeat center top;
+}
+.movie-3{
+	background: url(../images/movie-3.jpg) no-repeat center top;
+}
+.movie-4{
+	background: url(../images/movie-4.jpg) no-repeat center top;
+}
+.movie-5{
+	background: url(../images/movie-5.jpg) no-repeat center top;
+}
+.movie-6{
+	background: url(../images/movie-6.jpg) no-repeat center top;
+}
+.movie-7{
+	background: url(../images/movie-7.jpg) no-repeat center top;
+}
+.movie-8{
+	background: url(../images/movie-8.jpg) no-repeat center top;
+}
+.movie-9{
+	background: url(../images/movie-9.jpg) no-repeat center top;
+}
+.movie-10{
+	background: url(../images/movie-10.jpg) no-repeat center top;
+}
+.movie-11{
+	background: url(../images/movie-11.jpg) no-repeat center top;
+}
+.movie-12{
+	background: url(../images/movie-12.jpg) no-repeat center top;
+}
+.movie-13{
+	background: url(../images/movie-13.jpg) no-repeat center top;
+}

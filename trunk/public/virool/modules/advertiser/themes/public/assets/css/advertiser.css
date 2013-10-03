@@ -1,0 +1,56 @@
+#promotion-hero-unit{
+    background: url(../images/hero-publisher.jpg) no-repeat !important;
+}
+.site-hero .hero-inner{
+    background: url(../images/hero-headline.jpg) no-repeat !important;
+}
+#promotion-hero-unit .site-hero .hero-inner h1{
+    font-size: 130px;
+    letter-spacing: 0px;
+    color: inherit;
+    line-height:1px;
+    margin-bottom:0;
+    font-family: "SteelfishRg-regular";
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+
+}
+.site-hero .hero-inner p.tagline {
+    font-family: "MuseoSans-100";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 100%;
+}
+
+.bx-default-pager{
+    bottom: -40px !important;
+    background: #F13490;
+    width: 520px !important;
+}
+.bx-viewport{
+    border: none !important;
+    box-shadow: none !important;
+    left: 0px !important;
+}
+.bx-wrapper .bx-pager{
+    padding-top: 16px !important;
+}
+.bx-wrapper .bx-viewport{
+    background: none !important;
+}
+#promotion-carousel .slide h2{
+    color: #1BA392;
+    font-family: MuseoSans-100;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+}
+#promotion-carousel .slide p{
+    color: #D2D2D2;
+    line-height: 130%;
+    font-size: 16px;
+    font-family: "MuseoSans-300","Helvetica Neue",Helvetica,Arial,sans-serif;
+}    

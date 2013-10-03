@@ -1,0 +1,103 @@
+.container-fixed{
+	position: fixed;
+	top: 20px;
+	left: 30px;
+	background-color: #F5F5F5;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    margin-bottom: 20px;
+    min-height: 20px;
+    padding: 0px;
+    width: 200px;
+}
+.container-fixed ul{
+	margin: 0px;
+	padding: 10px 0;
+}
+.container-fixed ul li{
+	list-style: none;
+	border-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.container-fixed ul li > a{
+	display: block;
+    padding: 0px 20px;
+    font-size: 10pt;
+}
+.container-fixed ul li.active > a, .container-fixed ul li.active > a:hover, .container-fixed ul li.active > a:focus {
+    background-color: #1BA392;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+.pull-right {    
+    margin-left: 30px;
+    height: 22px;
+}
+.icon-chevron-right {
+    background-position: -455px -69px !important;
+}
+.container-fixed ul li.active > a .icon-chevron-right{
+	background-image: url("../images/glyphicons-halflings-white.png");
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 22px;
+    line-height: 14px;
+    margin-right: 0.3em;
+    margin-top: 1px;
+    vertical-align: text-top;
+    width: 14px;
+}
+/* --------- .container-content ---------*/
+.control-group{
+	clear: both;
+}
+.control-group label{
+	color:#516B83;
+}
+.container-content{
+	width: 700px;
+	margin: 0px auto;
+}
+.control-label{
+	float: left;
+	line-height: 38px;
+	width: 140px;
+	font-size: 11pt;
+	text-transform: none;
+}
+.control-group .user_on_recurring_billing{
+	color: #516B83;
+	font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    width: 118px;
+}
+input#user_on_recurring_billing{
+	margin-bottom: 5px;
+}
+.control-group span{
+	color:#516B83;
+	font-size: 11pt;
+	padding-right: 10px;
+}
+.control-group span.span-sao{
+	color: red;
+    font-size: 9pt;
+    margin: 0px;
+    padding:0px;
+    float: none;
+}
+.control-group label.error{
+	color: red;
+	font-size: 9pt;
+}
+#edit-card:focus{
+	text-decoration: none;
+	color: #1BA392;
+}
+select:focus{
+	outline: none;
+}

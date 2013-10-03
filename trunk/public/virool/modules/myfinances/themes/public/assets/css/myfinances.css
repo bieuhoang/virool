@@ -1,0 +1,90 @@
+#user-billing{
+    width: 90% !important;
+    padding: 20px 0px;
+    margin: 0px auto;
+}
+#aId-makeapayment{
+    padding: 15px 0px;
+}
+.list-head .btn{
+    text-transform: none;
+     font-size: 15.5px;
+     text-align: left;
+}
+.list-head .btn-block{
+    padding-left: 10px !important;
+    color: #333;
+}
+.btn-large{
+    padding: 15px 0px !important;
+    outline: none;
+}
+.list-head{
+    position: relative;
+    z-index: 99;
+}
+.btn:focus{
+    outline: none !important;
+}
+.list-content{
+    border: 1px solid #DDDDDD;
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+    margin: -5px 10px 0;
+    padding: 0px 10px 0px;
+    position: relative;
+    z-index: 1;
+}
+.text-align-center{
+    padding: 10px 0px;
+}
+.float-right{
+    margin-right: 15px;
+}
+.caret-right {
+    border-color: transparent -moz-use-text-color transparent #000000;
+    border-left: 4px solid #000000;
+    border-right: 0 none;
+    border-style: solid none solid solid;
+    border-width: 5px 0 5px 5px;
+    margin-right: 18px;
+    margin-top: 4px !important;
+}
+.well-small{
+    padding: 0px !important;
+    border-radius: 5px;
+}
+.box-header{
+    background: #fff;
+    padding: 9px;
+    color: #516B83;
+    font-size: 17px;
+    border-bottom: 1px solid #E3E3E3;
+    border-radius: 5px 5px 0px 0px
+}
+.balance-line{
+    padding: 5px 9px;
+}
+#current-cash-balance{
+    font-size: 17px;
+    font-weight: bold;
+    color: #516B83;
+}
+.margin-top-5{
+    padding: 0px 9px 9px;
+}
+.billing-period-selector{
+    padding: 9px 9px;
+}
+#affiliate-link-container{
+    padding: 9px 9px 0px;
+}
+.finances-affilliate-link small{
+    padding-left: 9px;
+}
+.csv-report{
+    padding: 9px;
+}
+.excel-report{
+    padding: 0px 9px 9px;
+}

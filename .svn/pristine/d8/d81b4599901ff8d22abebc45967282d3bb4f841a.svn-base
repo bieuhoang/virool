@@ -1,0 +1,39 @@
+.divCls-Group{
+	border-radius: 3px 3px 3px 3px;
+    clear: both;
+    margin: 10px 0;
+    overflow: hidden;
+    padding: 5px;
+}
+.divCls-Group .divCls-Img{
+	float: left;
+	border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 5px #333333;
+    width: 60px;
+}
+.divCls-Group .divCls-Title{
+	float: left;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 15px;
+    width: 500px;
+}
+.divCls-Group:hover{
+	box-shadow: 0 0 5px #333;
+}
+.divCls-ahref{
+    float: right;
+    margin: 5px;
+}
+.btn-primary, .btn-primary:hover{
+    background-color: #006DCC !important;
+    background-image: linear-gradient(to bottom, #0088CC, #0044CC) !important;
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    font-size: 12px !important;
+}
+.btn-publicsher-add-document{
+    font-size: 12px;
+}

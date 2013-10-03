@@ -1,0 +1,172 @@
+.container{
+	width: 90% !important;
+}
+.divCls-content-campaign{
+    padding: 20px 0px;
+}
+.btn-success{
+    background-color: #5BB65B;
+    background-image: linear-gradient(to bottom, #62C462, #51A351);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    text-transform: none;
+}
+#myTab a:focus{
+	outline: none;
+}
+#myTab{
+	margin-bottom: 5px !important;
+}
+/*table-home*/
+#table-home .campaign-info{
+	width: 310px;
+	padding: 5px;
+	color: #516B83;
+	text-align: left;
+}
+#table-home .Budget{
+	width: 80px;
+	padding: 5px;
+	color: #516B83;
+	text-align: center;
+}
+#table-home .Bid{
+	width: 40px;
+	padding: 5px;
+	color: #516B83;
+	text-align: center;
+}
+#table-home .Displays{
+	width: 100px;
+	padding: 5px;
+	color: #516B83;
+	text-align: left;
+}
+#table-home .Views{
+	width: 100px;
+	padding: 5px;
+	color: #516B83;
+	text-align: left;
+}
+#table-home .Clicks{
+	width: 100px;
+	padding: 5px;
+	color: #516B83;
+	text-align: left;
+}
+#table-home .Funds{
+	width: 110px;
+	padding: 5px;
+	color: #516B83;
+	text-align: center;
+}
+#table-home .State{
+	width: 140px;
+	padding: 5px;
+	color: #516B83;
+	text-align: center;
+}
+#table-home .Actions{
+	width: 130px;
+	padding: 5px;
+	color: #516B83;
+	text-align: center;
+}
+/*table-profile*/
+#table-profile .campaign-info{
+	width: 310px;
+	padding: 5px;
+	color: #516B83;
+	text-align: left;
+}
+#table-profile .Budget{
+	width: 80px;
+	padding: 5px;
+	color: #516B83;
+	text-align: center;
+}
+#table-profile .Bid{
+	width: 40px;
+	padding: 5px;
+	color: #516B83;
+	text-align: center;
+}
+#table-profile .Displays{
+	width: 80px;
+	padding: 5px;
+	color: #516B83;
+	text-align: center;
+}
+#table-profile .Views{
+	width: 80px;
+	padding: 5px;
+	color: #516B83;
+	text-align: center;
+}
+#table-profile .Clicks{
+	width: 80px;
+	padding: 5px;
+	color: #516B83;
+	text-align: center;
+}
+#table-profile .Funds{
+	width: 110px;
+	padding: 5px;
+	color: #516B83;
+	text-align: center;
+}
+#table-profile .State{
+	width: 110px;
+	padding: 5px;
+	color: #516B83;
+	text-align: center;
+}
+#table-profile .Actions{
+	width: 165px;
+	padding: 5px;
+	color: #516B83;
+	text-align: center;
+}
+
+.divCls-Funds{
+	background: url(../images/blue_funds.png) no-repeat center center;
+	width: 100px;
+	height: 20px;
+	display: block;
+}
+.imgCls-info{
+	height: 45px;
+    width: 80px;
+}
+[class^="icon-"], [class*=" icon-"]{
+	background-image: url("../images/glyphicons-halflings.png");
+}
+.btn{
+	font-size: 12px;
+	font-family: tahoma;
+	padding: 4px 6px !important;
+	text-transform:none;
+}
+.aCls-kind, .aCls-budget-bid, .aCls-State{
+	border-bottom: 1px dashed #0088CC;
+    text-decoration: none;
+}
+.aCls-kind:hover, .aCls-budget-bid:hover, .aCls-State:hover, a:focus{
+	text-decoration: none;
+	outline: none;
+}
+.divClsContainer{
+	width: 100% !important;
+}
+.icon-white{
+	background-image: url("../images/glyphicons-halflings-white.png");
+}
+#txtId-budget-kind{
+	width: 95px !important;
+}
+#sel-state{
+	width: 150px !important;
+	margin: 0px !important;
+}

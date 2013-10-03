@@ -1,0 +1,64 @@
+#tabFixUp{
+    /*background-color: #CCCCCC;
+    background-image: linear-gradient(#F5F5F5, #CCCCCC);*/
+    background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #CDCDCD;
+    width: 60%;
+    border-collapse: collapse;
+}
+#tabFixUp thead{
+    background: url("../../img/upload/titleBg.png") repeat-x scroll 0 0 #EFEFEF;
+    border-bottom: 1px solid #CDCDCD;
+    height: 36px;
+    width: 100%;
+}
+#tabFixUp thead td{
+    vertical-align: middle;
+}
+#tabFixUp td{
+    font-size: 9.5pt;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+#tabFixUp td.tdRow1{
+    text-align: center;
+    padding: 5px;
+}
+#tabFixUp td.tdRow2{
+    text-align: left;
+    padding: 5px 10px;
+}
+#tabFixUp td.tdRow3{
+    text-align: center;
+    padding: 5px 10px;
+}
+#tabFixUp td.tdRow3{
+    text-align: center;
+    padding: 5px 10px;
+}
+#tabFixUp td.tdRow4{
+    text-align: center;
+    padding: 5px 10px;
+}
+#tabFixUp td.tdRow5{
+    text-align: center;
+    padding: 5px 10px;
+}
+/* --  #divFixActionEdit  --  */
+#divFixActionEdit{
+    float: left;
+}
+#divFixActionEdit a{
+    background: url(../../img/upload/edit.png) no-repeat center center;
+    display: block;
+    width: 20;              height: 20px;
+    margin: 0px 15px;
+}
+#divFixActionDelete a{
+    background: url(../../img/upload/remove.png) no-repeat center center;
+    display: block;
+    height: 20px;
+    margin: 0px 15px;
+}

@@ -1,0 +1,309 @@
+#issuuViewer-Event {
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 0 3px 1px #AAAAAA;
+    margin-left: 95px;
+    margin-top: 10px;
+}
+.divCls-event-flash {
+    text-align: center;
+    width: 410px;
+}
+.divCls-event-flash a{
+	font-size: 10pt !important;
+    line-height: 20px !important;
+    margin: 0 4px !important;
+    padding: 0 10px 4px !important;
+    text-transform: none !important;
+}
+#tableIssuu{
+    width: 690px;
+}
+tr{
+    padding: 10px 0px;
+     display: block;
+}
+.td-lable{
+    width: 90px;
+}
+#selId-keyword, #selCountries, #selCategory{
+    width: 360px;
+}
+input[type="text"], textarea{
+    width: 580px;
+    margin: 0px;
+}
+
+legend{
+    clear: both;
+    padding: 10px 10px;
+}
+.divCls-group{
+    clear: both;
+    display: block;
+    margin: 4px 0;
+    padding: 5px 0;
+}
+.divCls-group .divCls-lable{
+    float: left;
+    width: 165px;
+}
+.divCls-group .divCls-element{
+    float: left;
+    width: 500px;
+}
+label.choice{
+    float: left;
+}
+.rdoCls-Gender, .rdoCls-Placements{
+    margin: 2px 5px !important;
+}
+#campaign_unformatted_budget{
+    height: 20px;
+    width: 60px;
+}
+.add-on{
+    height: 20px !important;
+}
+#campaign_budget_kind{
+    margin: 0 0 12px 10px;
+}
+#divId-Footer-document {
+    background: none repeat scroll 0 0 #DDDDDD;
+    clear: both;
+    margin: 10px 0;
+    overflow: hidden;
+    padding: 20px 0 20px 130px;
+}
+.divCls-clear{
+    clear: both;
+}
+.divCls-group-form-left{
+    float: left;
+    width: 50%;
+}
+.divCls-group-form-left .divCls-group .divCls-element {
+    float: left;
+    width: 370px;
+}
+.divCls-group-form-right{
+    float: right;
+}
+#divId-Content-box{
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px 0 #AAAAAA;
+    -moz-box-shadow: 0 0 10px 0 #AAAAAA;
+    -webkis-box-shadow: 0 0 10px 0 #AAAAAA;
+    height: 450px;
+    width: 520px;
+}
+#divId-Content-box .divCls-Content-box-left h4{
+    font-size: 17.5px;
+    text-align: center;
+    color: #516B83;
+}
+#divId-Content-box .divCls-Content-box-left{
+    border-right: 1px solid #E5E5E5;
+    display: block;
+    float: left;
+    height: 100%;
+    width: 160px;
+}
+ul.ulCls-Content-left{
+    margin: 0px;
+    padding: 0px;
+}
+ul.ulCls-Content-left li{
+    border-style: none;
+    list-style: none outside none;
+    margin: 5px 0 0;
+    padding: 0 9px;
+    text-align: center;
+}
+ul.ulCls-Content-left li a{
+    border: 1px solid #DDDDDD;
+    display: block;
+    margin: 0;
+    padding: 8px 6px;
+    font-size: 14px;
+}
+.divCls-Content-Right{
+    float: left;
+    margin-left: 15px;
+}
+.cls-table h4{
+    color: #516B83;    
+    font-size: 17.5px;
+}
+ul.ulCls-Content-left li.active a{
+    background: #1BA392;
+    color: #fff;
+    text-decoration: none;
+}
+.divCls-Content-Right .cls-table{
+    display: none;
+}
+.divCls-Content-Right > div.active{
+    display: block;
+}
+.cls-table .divCls-window-img{
+    background: url("../images/img-120x90.png") no-repeat scroll center center transparent;
+    height: 90px;
+    position: absolute;
+    width: 120px;
+}
+#dicCls-Slideshow-img-1{
+    background: url("../images/slideshow-1.jpg") no-repeat scroll center center transparent;
+    height: 90px;
+    width: 120px;
+}
+#dicCls-Slideshow-img-2{
+    background: url("../images/slideshow-2.jpg") no-repeat scroll center center transparent;
+    height: 90px;
+    width: 120px;
+}
+#dicCls-Slideshow-img-3{
+    background: url("../images/slideshow-3.jpg") no-repeat scroll center center transparent;
+    height: 90px;
+    width: 120px;
+}
+#dicCls-Slideshow-network-img-1{
+    background: url("../images/Social-Networks-1.jpg") no-repeat scroll center center transparent;
+    height: 250px;
+    width: 250px;
+}
+#dicCls-Slideshow-network-img-2{
+    background: url("../images/Social-Networks-2.jpg") no-repeat scroll center center transparent;
+    height: 211px;
+    width: 250px;
+}
+#dicCls-Slideshow-network-img-3{
+    background: url("../images/Social-Networks-3.jpg") no-repeat scroll center center transparent;
+    height: 211px;
+    width: 250px;
+}
+.slideshow-img ul li, #divIdTable-3 ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+.slideshow-img ul li a, .slideshow-img-facebook ul li a{
+    color: #1BA392;
+    font-size: 9pt;
+}
+.slideshow-img ul li.active a, .slideshow-img-facebook ul li.active a{
+    color: #F13490;
+}
+.slideshow-img-content .divCls-Tab{
+    display: none;
+}
+.slideshow-img-content .active{
+    display: block;
+}
+#divIdTable-1 .divCls-window-game{
+    background: url(../images/game.jpg) no-repeat center top;
+    height: 234px;
+    width: 320px;
+    position: absolute;
+}
+#divIdTable-1 img{
+    height: 122px;
+    margin: 51px 0 0 86px;
+    position: absolute;
+    width: 187px;
+}
+#divIdTable-2 .divCls-window-iphone{
+    background: url("../images/iphone.jpg") no-repeat scroll center top transparent;
+    height: 363px;
+    position: absolute;
+    width: 320px;
+}
+#divIdTable-2 img{
+    height: 80px;
+    margin: 123px 0 0 90px;
+    position: absolute;
+    width: 140px;
+}
+.slideshow-img-facebook .divCls-Tab-network{
+    display: none;
+}
+.slideshow-img-facebook .active{
+    display: block;
+}
+#divIdTable-4 .divCls-window-virtual{
+    background: url(../images/virtual.jpg) no-repeat center top;
+    height: 234px;
+    width: 320px;
+    position: absolute;
+}
+#divIdTable-4 img{
+    height: 80px;
+    margin: 65px 0 0 118px;
+    position: absolute;
+    width: 140px;
+}
+.divCls-group-elemtn .selec-chosen{
+    width: 350px;
+}
+.input-prepend{
+    margin-right: 10px;
+}
+#campaign_budget_kind{
+    height: 39px;
+    margin-top: 0;
+    padding: 10px 6px 7px;
+}
+.budget-hint{
+    color: #7691AA;
+    font-size: 10.5pt;
+}
+.padding-top-5{
+    font-size: 11pt;
+    color: #516B83;
+}
+.max-bid-hint{
+    font-family: "MuseoSans-300","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #7691AA;
+}
+.museo-bold{
+    font-family: MuseoSans-900;
+    font-style: normal;
+    font-weight: normal;
+    color: #7691AA;
+    font-size: 14px;
+    line-height: 20px;
+}
+.max-bid-suggestion{
+    font-family: "MuseoSans-300","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #7691AA;
+}
+.divCls-group-form{
+    clear: both;
+}
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container{
+    width: 85% !important;
+}
+.input_all{
+    background-color: #F4F4F4;
+    border: 1px solid #E1E1E1;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    width: 506px !important;
+    padding: 4px 6px;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*img table*/
+.img-tab0{
+    height: 100px;
+    width: 150px;
+}
+.img-tab3{
+    height: 100px;
+    width: 150px;
+}
