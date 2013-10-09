@@ -145,7 +145,7 @@ class Campaigns extends Public_Controller
 		$this->assets->add('makeapayment.js', '_theme_');
 		$this->assets->add('campaigns.css', 'campaigns');
 		$this->assets->add('campaigns.js', 'campaigns');
-		$this->set('Video_Paused_Pending', $User->video->where('sate', "Pending")->group_by('user_id')->get());
+		$this->set('Video_Paused_Pending', $User->video->group_by('id')->get());
 		$this->build();
 	}
 	public function edit(){
