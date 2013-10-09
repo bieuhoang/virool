@@ -2,9 +2,14 @@
 	<form action="<?php echo base_url();?>Manage-Campaigns" method="post">
 			<div class="divCls-group-form">
 				<input type="hidden" name="id" id="id" value="<?php echo $Videotpl->id;?>" />
+                                <input type="hidden" name="videoid" id="videoid" value="<?php echo $Videotpl->videoid;?>" />
+                                <input type="hidden" name="current_page" id="current_page" value="edit_video" />
 				<legend><span>Design your campaign</span></legend>
 				<div class="control-group">
-					<label class="control-label">Video</label>
+					
+                                        <div class="margin-top-5">
+                                        <input type="button" class="aCls-Change" value="Change..."/>
+                                        </div>
 					<div class="controls">
 						<object width="520" height="310"><param name="movie" value="http://www.youtube.com/v/<?php echo $Videotpl->videoid;?>"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/<?php echo $Videotpl->videoid;?>" type="application/x-shockwave-flash" width="520" height="310" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 						<div id="offer-info" role="info-container">

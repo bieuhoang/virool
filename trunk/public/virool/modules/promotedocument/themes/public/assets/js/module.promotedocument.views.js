@@ -242,7 +242,16 @@ $(function(){
 							if (cms.isset(data.response)) {
 								cms.issuuu.initHtml('#divId-content-document', data.response.docs[0]);
 							}
-						}
+						},
+                                                error: function(x, t, m){
+                                                    var error_list = new Array("error", "abort", "timeout", "parsererror");
+                                                        if(error_list.indexOf(t) !== -1)
+                                                        {     
+                                                                cms.issuuu.search();
+                                                                //alert('Looking back, it seems we can not find what you are looking for or network is slow. Please try agian');
+                                                                //request.abort();
+                                                        }
+                                                }
 					})
 				}
 			}
