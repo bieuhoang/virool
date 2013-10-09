@@ -15,12 +15,14 @@ var api = {
 		this.configs.pageNext = (typeof(opt.next)!='undefined' ? opt.next : '');
 		this.configs.pagePre = (typeof(opt.pre)!='undefined' ? opt.pre : '');
 	},
-	jsload : function(){
+	jsload : function(e){
+		
 		var _this = this;
 		_this.jsloading();
 		gapi.client.setApiKey(this.getApikey());
 		gapi.client.load('youtube', 'v3', function () {
-	    	_this.listVideo('');
+			_this.listVideo('');
+//	    	var timeoutID = window.setTimeout(_this.listVideo(''), 200);
 	    });
 	},
 	jsNext : function(){
@@ -77,24 +79,31 @@ var api = {
 				param.push(this.id.videoId);
 			});
 			_this.getVideoMetadata(param);
-        });
+        });        
 	},
 	getVideoMetadata : function(videoIds){
 		var _this = this;
 		var request = gapi.client.youtube.videos.list({
 			id: videoIds.join(','),
-			part: 'id,snippet,statistics,contentDetails, player'
+			part: 'id,snippet,statistics,contentDetails, player',
 		});
+		//var timeoutID = window.setTimeout(_this.listVideo(''), 200);
+		searchTimer = setTimeout(function () {
+		
 		request.execute(function(response) {
 			if ('error' in response) {
 				console.log(response.error.message);
 				return false;
 			} else {
 				_this.jsloading(true);
-				_this.initHtml(response.items)
+				_this.initHtml(response.items);
 			}
 		});
+		
+
+		
 	},
+
 	VideoDetails : function(videoId) {
 		var _this = this;
 			var request = gapi.client.youtube.videos.list({
@@ -183,6 +192,7 @@ var api = {
 		}
 	}
 }
+
 $(function(){
 	$(window).on('keyup', function(e){
         if (e.which == 13) api.jsload();
@@ -190,6 +200,7 @@ $(function(){
     });
 	$('#buttonSearch').click(function(){
 		api.jsload();
+		
 	})
 	$('a#aId-Next').live('click', function(){
 		api.jsNext();
@@ -198,7 +209,12 @@ $(function(){
 		api.jsPre();
 	})
 	$('.btt-user-video').live('click', function(){
-		window.location.href = window.site.app.current_url+'/'+$(this).data('ytid');
+                if($("#current_page").val() === "edit_video") {
+                    api.loaddetails($(this).data('ytid'));
+                   $.fancybox.close();
+                } else {
+                    window.location.href = window.site.app.current_url+'/'+$(this).data('ytid');
+                }
 	})
 	$('a.aCls-Preview').live('click', function(){
 		var text = '<div id="divId-Priview">PRIVIEW</div><object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/'+$(this).data('ytid')+'"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/'+$(this).data('ytid')+'" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object><div class="divCls-buton"><button type="button" role="select-video-btn" data-ytid="'+$(this).data('ytid')+'" class="btt-user-video">Use This Video</button></div>';
@@ -212,5 +228,8 @@ $(function(){
 	})
 })
 function jsLoad(){
-	api.jsload();
+	api.jsload();	
+}
+function timeoutSearch(start, thisTime){
+	
 }

@@ -42,6 +42,9 @@ class Campaigns extends Public_Controller
 					}
 				}
 				// update Video
+				$Video->id = $post['id'];
+				$Video->videoid = $post['videoid'];
+				$Video->images= $post['img'];
 				$Video->title = $post['name'];
 				$Video->caption = $post['body'];
 				$Video->link_url = $post['url'];
@@ -56,7 +59,7 @@ class Campaigns extends Public_Controller
 				$Video->save();
 
 				// delete category after update
-				if (count($dataDele['category'])) {
+				if (isset($post['category']) && count($dataDele['category'])) {
 					$Categoryvideo = new Categoryvideo_Model();
 					$Categoryvideo->where('video_id', $post['id'])
 								->where_in('category_id', $dataDele['category'])
@@ -64,7 +67,7 @@ class Campaigns extends Public_Controller
 								->delete();
 				}
 				// insert category after update
-				if (count($post['categorys_list'])) {
+				if (isset($post['categorys_list']) && count($post['categorys_list'])) {
 					foreach ($post['categorys_list'] as $keyCateAdd => $valueCateAdd) {
 						$Categoryvideo = new Categoryvideo_Model();
 						$Categoryvideo->video_id = $post['id'];
@@ -74,7 +77,7 @@ class Campaigns extends Public_Controller
 				}
 
 				// delete country after update
-				if (count($dataDele['country'])) {
+				if (isset($post['country']) && count($dataDele['country'])) {
 					$Countryvideo = new Countryvideo_Model();
 					$Countryvideo->where('video_id', $post['id'])
 								->where_in('country_id', $dataDele['country'])
@@ -82,7 +85,7 @@ class Campaigns extends Public_Controller
 								->delete();
 				}
 				// insert country after update
-				if (count($post['target_list'])) {
+				if (isset($post['target_list']) && count($post['target_list'])) {
 					foreach ($post['target_list'] as $keyCounAdd => $valueCounAdd) {
 						$Countryvideo = new Countryvideo_Model();
 						$Countryvideo->video_id = $post['id'];
@@ -142,7 +145,7 @@ class Campaigns extends Public_Controller
 		$this->assets->add('makeapayment.js', '_theme_');
 		$this->assets->add('campaigns.css', 'campaigns');
 		$this->assets->add('campaigns.js', 'campaigns');
-		$this->set('Video_Paused_Pending', $User->video->get());
+		$this->set('Video_Paused_Pending', $User->video->where('sate', "Pending")->group_by('user_id')->get());
 		$this->build();
 	}
 	public function edit(){

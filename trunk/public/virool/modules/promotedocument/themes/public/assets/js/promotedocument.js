@@ -72,11 +72,12 @@ $(function(){
 			search : function(){
 				var query = $('#inputIdValSearch').val(), that = this;
 				query = cms.Issuu.setKeyword(query);
-				$.ajax({
+				var request = $.ajax({
 					url : 'http://search.issuu.com/api/2_0/document?q='+query+'&pageSize='+that.pageSize+'&startIndex='+that.startIndex+'&responseParams=*&jsonCallback=?',
 					// url : "http://search.issuu.com/api/2_0/document?q=Uno+4th+issue&jsonCallback=?",
 					dataType : 'json',
 					type : 'post',
+					timeout:10000,
 					beforeSend : function() {
 						cms.jsloading();
 					},
@@ -84,7 +85,17 @@ $(function(){
 						cms.Issuu.setParam(data);
 						cms.Issuu.initData();
 						cms.jsloading(1);
-					}
+					},
+					error: function(x, t, m){
+                                                var error_list = new Array("error", "abort", "timeout", "parsererror");
+						if(error_list.indexOf(t) !== -1)
+						{     
+                                                        cms.Issuu.search();
+							cms.jsloading(1);
+							//alert('Looking back, it seems we can not find what you are looking for or network is slow. Please try agian');
+							//request.abort();
+						}
+					},
 				});
 			},
 			even : function() {
