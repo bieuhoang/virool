@@ -33,7 +33,7 @@ class User extends Public_Controller
 				$this->assets->add('makeapayment.js', '_theme_');
 				$this->assets->add('campaigns.css', 'user');
 				$this->assets->add('campaigns.js', 'user');
-				$this->set('Video_Paused_Pending', $User->video->get());
+				$this->set('Video_Paused_Pending', $User->video->group_by('id')->get());
 				$this->build();
 			}
 		} else {
